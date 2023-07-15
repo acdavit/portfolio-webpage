@@ -1,0 +1,132 @@
+[
+    {
+        "name": "Audiophile E-Commerce Website",
+        "githubSlug": "audiophile-ecommerce-website",
+        "liveUrl": "https://acdavit-audiophile-ecommerce-website.netlify.app/",
+        "fontawesomeClassNames": "fa-solid fa-headphones",
+        "stack": [
+            "fa-brands fa-react",
+            "fa-brands fa-html5",
+            "fa-brands fa-css3-alt",
+            "fa-brands fa-square-js"
+        ] 
+    },
+    {
+        "name": "To-Do Application",
+        "githubSlug": "todo-app",
+        "liveUrl": "https://todo-app-acdavit.netlify.app/",
+        "fontawesomeClassNames": "fa-solid fa-list",
+        "stack": [
+            "fa-brands fa-react",
+            "fa-brands fa-html5",
+            "fa-brands fa-css3-alt",
+            "fa-brands fa-square-js"
+        ]
+    },
+    {
+        "name": "GitHub User Search App",
+        "githubSlug": "github-user-search-app",
+        "liveUrl": "https://github-user-search-app-acdavit.netlify.app/",
+        "fontawesomeClassNames": "fa-solid fa-magnifying-glass",
+        "stack": [
+            "fa-brands fa-react",
+            "fa-brands fa-html5",
+            "fa-brands fa-css3-alt",
+            "fa-brands fa-square-js"
+        ]
+    },
+    {
+        "name": "Tip Calculator App",
+        "githubSlug": "tip-calculator-app",
+        "liveUrl": "https://tip-calculator-app-acdavit.netlify.app/",
+        "fontawesomeClassNames": "fa-solid fa-calculator",
+        "stack": [
+            "fa-brands fa-react",
+            "fa-brands fa-html5",
+            "fa-brands fa-css3-alt",
+            "fa-brands fa-square-js"
+        ]
+    },
+    {
+        "name": "Interactive Rating Component",
+        "githubSlug": "interactive-rating-component",
+        "liveUrl": "https://interactive-rating-component-acdavit.netlify.app/",
+        "fontawesomeClassNames": "fa-solid fa-star",
+        "stack": [
+            "fa-brands fa-react",
+            "fa-brands fa-html5",
+            "fa-brands fa-css3-alt",
+            "fa-brands fa-square-js"
+        ]
+    },
+    {
+        "name": "Typemaster Pre-Launch Landing Page",
+        "githubSlug": "typemaster-pre-launch-landing-page",
+        "liveUrl": "https://acdavit.github.io/typemaster-pre-launch-landing-page/",
+        "fontawesomeClassNames": "fa-solid fa-keyboard",
+        "stack": [
+            "fa-brands fa-html5",
+            "fa-brands fa-css3-alt"
+        ]
+    },
+    {
+        "name": "Equalizer Landing Page",
+        "githubSlug": "equalizer-landing-page",
+        "liveUrl": "https://acdavit.github.io/equalizer-landing-page/",
+        "fontawesomeClassNames": "fa-solid fa-volume-high",
+        "stack": [
+            "fa-brands fa-html5",
+            "fa-brands fa-css3-alt"
+        ]
+    },
+    {
+        "name": "Modern Art Gallery Webpage",
+        "githubSlug": "modern-art-gallery",
+        "liveUrl": "https://acdavit.github.io/modern-art-gallery",
+        "fontawesomeClassNames": "fa-solid fa-palette",
+        "stack": [
+            "fa-brands fa-html5",
+            "fa-brands fa-css3-alt"
+        ]
+    },
+    {
+        "name": "Skilled E-Learning Landing Page",
+        "githubSlug": "skilled-elearning-landing-page",
+        "liveUrl": "https://acdavit.github.io/skilled-elearning-landing-page/",
+        "fontawesomeClassNames": "fa-solid fa-lines-leaning",
+        "stack": [
+            "fa-brands fa-html5",
+            "fa-brands fa-css3-alt"
+        ]
+    },
+    {
+        "name": "Profile Card Component",
+        "githubSlug": "profile-card-component",
+        "liveUrl": "https://acdavit.github.io/profile-card-component/",
+        "fontawesomeClassNames": "fa-solid fa-user",
+        "stack": [
+            "fa-brands fa-html5",
+            "fa-brands fa-css3-alt"
+        ]
+    },
+    {
+        "name": "Order Summary Component",
+        "githubSlug": "order-summary-component",
+        "liveUrl": "https://acdavit.github.io/order-summary-component/",
+        "fontawesomeClassNames": "fa-solid fa-credit-card",
+        "stack": [
+            "fa-brands fa-html5",
+            "fa-brands fa-css3-alt"
+        ]
+    },
+    {
+        "name": "NFT Preview Card Component",
+        "githubSlug": "nft-preview-card-component",
+        "liveUrl": "https://acdavit.github.io/nft-preview-card-component/",
+        "fontawesomeClassNames": "fa-solid fa-file-image",
+        "stack": [
+            "fa-brands fa-html5",
+            "fa-brands fa-css3-alt"
+        ]
+    }
+]

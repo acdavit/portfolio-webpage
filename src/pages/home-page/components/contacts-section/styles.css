@@ -1,0 +1,16 @@
+#contacts-section h1{
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+}
+
+#contacts-section .icons{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#contacts-section .icons .button{
+    font-size: 40px;
+}

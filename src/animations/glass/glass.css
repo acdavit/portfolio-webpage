@@ -1,0 +1,74 @@
+/*  FOR THE LIGHT EFFECT TO PROPERLY FUNCTION, 
+    IMPORT THE GLASS.JS FILE AND RUN IT IN USEEFFECT IN THE PROJECT FILE!
+*/
+
+/*
+
+    After importing this CSS file, you can essentially
+    set glass or glass-card as a className on a preferred
+    element to get some COOL effects
+
+    .glass - it gives the element a glassy look, with some cool hover effects (GLASS.JS REQUIRED)
+    .glass-card - same as .glass, but has a border-radius of 10px
+
+*/
+
+.glass, .glass-card {
+    background-color: rgba(255, 255, 255, 0.02);
+    background: linear-gradient(
+        65deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.1),
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.1)
+    );
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3), inset 0px 1px 0px rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(15px);
+    transition: box-shadow 500ms;
+}
+
+.glass::before, .glass-card::before{
+    background: radial-gradient(
+        1500px circle at var(--mouse-x) var(--mouse-y),
+        rgba(255, 255, 255, 0.2),
+        transparent 40%
+    );
+    border-radius: inherit;
+    content: "";
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: 2;
+    opacity: 0;
+    transition: opacity 500ms;
+}
+
+.glass:hover::before, .glass-card:hover::before{
+    opacity: 1;
+}
+
+.glass:hover, .glass-card:hover{
+    box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.2),
+            inset 0px 1px 0px rgba(255, 255, 255, 0.4);
+
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.glass-card{
+    border-radius: 10px;
+}
+
+/* 
+
+    CREDITS:
+    Logic based on Magical Hover Effect by Hyperplexed
+    Codepen: https://codepen.io/Hyperplexed/full/MWQeYLW
+    Video: https://www.youtube.com/watch?v=htGfnF1zN4g&ab_channel=Hyperplexed
+
+    Some glass effects based on "Windows 7" by Kasper Legarth
+    Codepen: https://codepen.io/legarth/pen/jrKLqd
+    
+*/

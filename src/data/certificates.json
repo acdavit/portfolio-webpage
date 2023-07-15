@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Introduction to Computer Science in JavaScript",
+        "url": "https://codehs.com/certificate/5GrXjU",
+        "fontawesomeClassNames": "fa-solid fa-code"
+    },
+    {
+        "name": "Responsive Web Design Certification",
+        "url": "https://www.freecodecamp.org/certification/acdavid/responsive-web-design",
+        "fontawesomeClassNames": "fa-brands fa-html5"
+    },
+    {
+        "name": "JavaScript Algorithms and Data Structures Certification",
+        "url": "https://www.freecodecamp.org/certification/acdavid/javascript-algorithms-and-data-structures",
+        "fontawesomeClassNames": "fa-brands fa-square-js"
+    },
+    {
+        "name": "Front End Development Libraries Certification",
+        "url": "https://www.freecodecamp.org/certification/acdavid/front-end-development-libraries",
+        "fontawesomeClassNames": "fa-brands fa-react"
+    }
+]

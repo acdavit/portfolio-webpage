@@ -1,0 +1,23 @@
+#certificates-section{
+    display: block;
+}
+
+#certificates-section > h1{
+    text-align: center;
+}
+
+@media screen and (min-width: 1050px){
+    #certificates-section{
+        display: flex;
+        justify-content: flex-start;
+        align-items: stretch;
+    }
+
+    #certificates-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-flow: wrap;
+        flex: 1;
+    }
+}

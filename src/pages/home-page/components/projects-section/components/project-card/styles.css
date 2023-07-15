@@ -1,0 +1,87 @@
+:root{
+    --project-card-height: 250px;
+}
+
+.project-card {
+    padding: 70px 25px 50px;
+    max-width: 300px;
+    margin: 10px auto; 
+    height: var(--project-card-height);
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.project-card > *{
+    text-align: center;
+}
+
+.project-icon{
+    flex: 1;
+    font-size: 100px;
+}
+
+.project-description{
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.project-description > .inline{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-built-with, .project-buttons{
+    display: flex;
+    gap: 15px;
+    font-size: 20px;   
+}
+
+.project-name{
+    font-size: 15px;
+}
+
+@media screen and (min-width: 550px){
+    .project-card{
+        flex-direction: row;
+        justify-content: start;
+        gap: 50px;
+        height: 100px;
+        max-width: none;
+        padding: 50px;
+        margin: 50px 20px;
+    }
+    .project-icon{
+        flex: 0;
+        min-width: 70px;
+        font-size: 70px;
+        align-self: center;
+        text-align: center;
+    }
+    .project-description{
+        justify-content: space-between;
+        gap: 0;
+        flex: 1;
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 1050px){
+    .project-card{
+        height: 150px;
+    }
+    .project-icon{
+        min-width: 120px;
+        font-size: 120px;
+    }
+    .project-name{
+        font-size: 20px;
+    }
+    .project-description{
+        padding: 20px;   
+    }
+}
